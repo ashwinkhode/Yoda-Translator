@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  display: block;
+  position: relative;
+  text-align: center;
+  padding: 10rem 0;
+}
+
+h1 {
+  margin: 3rem 0;
+  font-size: 5rem;
+  color: #8bae95;
+}
+
+#txt-input {
+  height: 10rem;
+  width: 30rem;
+  padding: 0.5rem;
+  outline: none;
+  border: 2px solid #8bae95;
+}
+
+#btn-translate {
+  margin: 1rem 0;
+  padding: 1rem 2rem;
+  background-color: #8bae95;
+  border: none;
+}
+
+.outputHead {
+  font-size: 1.2rem;
+}
+
+#output {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.img {
+  margin: 5rem 0 2rem 0;
+}
+
+.img img {
+  height: 30vh;
+}
+
+footer {
+  font-size: 1.2rem;
+  text-decoration: none;
+}
